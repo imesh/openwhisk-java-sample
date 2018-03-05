@@ -1,6 +1,6 @@
 # Apache OpenWhisk Java Sample
 
-This repository contains a sample Java function which can be deployed on Apache OpenWhisk to try out the behaviour of Java actions.
+This repository contains a sample Java function which can be deployed on Apache OpenWhisk to try out the behaviour of [Java Actions](https://github.com/apache/incubator-openwhisk/blob/master/docs/actions.md#creating-java-actions).
 
 # Prerequisites
 
