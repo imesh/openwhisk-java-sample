@@ -2,9 +2,18 @@
 
 This repository contains a sample Java function which can be deployed on Apache OpenWhisk to try out the behaviour of Java actions.
 
+# Prerequisites
+
+The following prerequisites are needed to tryout this sample:
+
+- [Oracle JDK](http://www.oracle.com/technetwork/java/javase/downloads/index.html) or [OpenJDK](http://openjdk.java.net/install/) >= v1.8
+- [Gradle](https://gradle.org) >= v4.6
+- [Vagrant](https://www.vagrantup.com/downloads.html) >= v2.0.1
+- [OpenWhisk CLI](https://github.com/apache/incubator-openwhisk-cli)
+
 # Quick Start Guide
 
-1. Install OpenWhisk using Vagrant
+1. Install OpenWhisk using Vagrant:
 
    ````bash
    # Clone OpenWhisk git repository
@@ -44,3 +53,7 @@ This repository contains a sample Java function which can be deployed on Apache 
     "greeting": "Hello Java!"
    }
    ````
+
+## License
+
+This source code is licensed under Apache 2.0 license.
